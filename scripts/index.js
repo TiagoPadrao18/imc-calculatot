@@ -18,22 +18,22 @@ function calculateImc() {
 
 function changeImages(result,weight) {
   if (result <= 18) {
-    image.src = "/resources/magro.png";
+    image.src = "./resources/magro.png";
     valueImc.innerText = slimString+ " - " + result + "%";
 
   } else if (result <= 25) {
-    image.src = "/resources/normal.png";
+    image.src = "./resources/normal.png";
     valueImc.innerText = normalString + " - " + result + "%";
   } else if (result <= 30) {
-    image.src = "/resources/sobrepeso.png";
+    image.src = "./resources/sobrepeso.png";
     valueImc.innerText = overWeightString + " - " + result + "%";
   } else {
-    image.src = "/resources/obeso.png";
+    image.src = "./resources/obeso.png";
     valueImc.innerText = obeseString + " - " + result + "%";
   }
 
 if (weight>150){
-    image.src ="/resources/godzilla.png";
+    image.src ="./resources/godzilla.png";
     valueImc.innerText =  monsterString + " - " + result + "%";
 }
 
