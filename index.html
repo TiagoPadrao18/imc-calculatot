@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC Calculator</title>
+    <link rel="stylesheet" href="./style-components/style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-container">
+        <img id="woman-man" src="resources/man.png" />
+        <h1 id="title">IMC CALCULATOR</h1>
+        <input id="height" type="text" placeholder="height" />
+        <input id="weight" type="text" placeholder="weight" />
+        <button onclick="calculateImc()" id="buttonSubmit" type="submit">CALCULATE</button>
+      </div>
+      <div class="right-container">
+        <div class="card">
+          <img id="image-result" src="" alt="">
+          <h1 id="title-imc"></h1>
+        </div>
+      </div>
+    </div>
+    <script src="/scripts/index.js"></script>
+  </body>
+</html>

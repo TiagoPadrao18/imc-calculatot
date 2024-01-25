@@ -1,0 +1,112 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color:#406E8E;
+}
+
+.navbar {
+
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.left-container{
+    height: 100%;
+    width: 40%;
+    background-color: #23395B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.left-container img {
+    height: 30%;
+    
+}
+
+.left-container input {
+margin-bottom: 2%;
+width: 40%;
+height: 4%;
+border-radius: 10px;
+border: none;
+background-color: #161925 ;
+color: rgb(255, 187, 0);
+padding-left: 4%;
+outline: none;
+
+}
+
+
+.right-container{
+    height: 100%;
+    width: 60%;
+    background-color:#406E8E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.card {
+    height: 80%;
+    width: 70%;
+    background-color: hsl(216, 44%, 25%);
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#title {
+    color: rgb(255, 187, 0);
+}
+
+#buttonSubmit{
+    margin-top: 4%;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    padding: 2%;
+    border-radius: 4px;
+
+}
+
+
+#buttonSubmit:hover {
+    background-color: rgb(255, 213, 0);
+}
+
+
+
+
+#title-imc {
+   color: rgb(255, 187, 0);
+}
+ 
+#percent {
+    color: rgb(255, 187, 0);
+}
